@@ -5,10 +5,14 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #3a2620; /* Brown */
-    --secondary-color: #aa9581; /* Light Brown */
-    --highlight-color: #416a8e; /* Blue */
-    --highlight-color-light: #7a9fc2; /* Light Blue */
+    --primary-color: #3a2620;
+    /* Brown */
+    --secondary-color: #aa9581;
+    /* Light Brown */
+    --highlight-color: #416a8e;
+    /* Blue */
+    --highlight-color-light: #7a9fc2;
+    /* Light Blue */
 }
 
 /* Global Styles */
@@ -17,7 +21,9 @@ body {
     font-family: var(--primary-font);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
@@ -27,7 +33,8 @@ h1, h2, h3 {
 }
 
 /* Grid visualisation CSS for testing */
-.container, .row {
+.container,
+.row {
     border: 2px solid black;
 }
 
