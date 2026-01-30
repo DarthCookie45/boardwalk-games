@@ -168,6 +168,10 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
+
+    #fav-games .card-body {
+        min-height: 315px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -186,6 +190,10 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+
+    #fav-games .card-body {
+        min-height: 338px;
+    }
 }
 
 /* XXLarge devices (desktops, 1400px and up) */
@@ -194,5 +202,9 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+
+    #fav-games .card-body {
+        min-height: 315px;
     }
 }
