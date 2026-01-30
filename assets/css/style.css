@@ -148,6 +148,19 @@ h2 {
 
 /* Media queries */
 
+/* Small devices (less than 576px) */
+@media screen and (max-width: 360px) {
+  table {
+    font-size: 0.75rem; /* 12px */
+    }
+
+  th, td {
+    padding: 0.25rem 0.3rem;
+    vertical-align: top;
+  }
+} 
+
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
