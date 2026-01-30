@@ -19,7 +19,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding: 57.15px; /* pushes the top of header down below fixed navbar */
+    padding-top: 57.15px; /*pushes the top of the header below the fixed navbar*/ 
 }
 
 h1,
@@ -43,8 +43,7 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem
 }
 
 /* Buttons */
